@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d89a7f-1117-4282-b3b3-e3987fb6cd19" name="Changes" comment="BI, Bisección, PuntoFijo">
-      <change afterPath="$PROJECT_DIR$/src/ReglaFalsa.java" afterDir="false" />
+    <list default="true" id="98d89a7f-1117-4282-b3b3-e3987fb6cd19" name="Changes" comment="BI, Bisección, PuntoFijo, ReglaFalsa, Newton">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Newton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReglaFalsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReglaFalsa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PuntoFijo">
+  <component name="RunManager" selected="Application.Newton">
     <configuration name="Bisección" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bisección" />
       <module name="NumericalMethods" />
@@ -63,6 +65,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Newton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Newton" />
+      <module name="NumericalMethods" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PuntoFijo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PuntoFijo" />
       <module name="NumericalMethods" />
@@ -70,8 +79,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReglaFalsa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReglaFalsa" />
+      <module name="NumericalMethods" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Newton" />
+        <item itemvalue="Application.ReglaFalsa" />
         <item itemvalue="Application.PuntoFijo" />
         <item itemvalue="Application.Bisección" />
         <item itemvalue="Application.BúsquedaIncremental" />
@@ -89,8 +107,7 @@
       <workItem from="1661814410290" duration="1866000" />
       <workItem from="1663173862316" duration="3999000" />
       <workItem from="1663256809514" duration="175000" />
-      <workItem from="1663277692960" duration="2240000" />
-      <workItem from="1663442352447" duration="900000" />
+      <workItem from="1663277692960" duration="1474000" />
     </task>
     <task id="LOCAL-00001" summary="BI, Bisección">
       <created>1663256865555</created>
@@ -99,14 +116,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663256865555</updated>
     </task>
-    <task id="LOCAL-00002" summary="BI, Bisección, PuntoFijo">
-      <created>1663279284453</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1663279284453</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BI, Bisección" />
-    <MESSAGE value="BI, Bisección, PuntoFijo" />
-    <option name="LAST_COMMIT_MESSAGE" value="BI, Bisección, PuntoFijo" />
+    <MESSAGE value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton" />
+    <option name="LAST_COMMIT_MESSAGE" value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton" />
   </component>
 </project>
