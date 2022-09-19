@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d89a7f-1117-4282-b3b3-e3987fb6cd19" name="Changes" comment="BI, Bisección, PuntoFijo">
-      <change afterPath="$PROJECT_DIR$/src/GaussSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Secante.java" afterDir="false" />
+    <list default="true" id="98d89a7f-1117-4282-b3b3-e3987fb6cd19" name="Changes" comment="BI, Bisección, PuntoFijo, ReglaFalsa, Newton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bisección.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bisección.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BúsquedaIncremental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BúsquedaIncremental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GaussSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GaussSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PuntoFijo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PuntoFijo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReglaFalsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReglaFalsa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Secante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Secante.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +34,7 @@
   </component>
   <component name="ProjectId" id="2E3BUepSi49kEe6RC3p5EbNgiu9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -49,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GaussSimple">
+  <component name="RunManager" selected="Application.BúsquedaIncremental">
     <configuration name="Bisección" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bisección" />
       <module name="NumericalMethods" />
@@ -64,15 +69,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GaussSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GaussSimple" />
+    <configuration name="PuntoFijo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PuntoFijo" />
       <module name="NumericalMethods" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PuntoFijo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PuntoFijo" />
+    <configuration name="ReglaFalsa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReglaFalsa" />
       <module name="NumericalMethods" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GaussSimple" />
+        <item itemvalue="Application.BúsquedaIncremental" />
+        <item itemvalue="Application.Bisección" />
         <item itemvalue="Application.Secante" />
         <item itemvalue="Application.PuntoFijo" />
-        <item itemvalue="Application.Bisección" />
-        <item itemvalue="Application.BúsquedaIncremental" />
+        <item itemvalue="Application.ReglaFalsa" />
       </list>
     </recent_temporary>
   </component>
@@ -108,6 +113,7 @@
       <workItem from="1663256809514" duration="175000" />
       <workItem from="1663277692960" duration="2240000" />
       <workItem from="1663442352447" duration="900000" />
+      <workItem from="1663603809301" duration="10512000" />
     </task>
     <task id="LOCAL-00001" summary="BI, Bisección">
       <created>1663256865555</created>
@@ -143,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BI, Bisección" />
     <MESSAGE value="BI, Bisección, PuntoFijo" />
-    <option name="LAST_COMMIT_MESSAGE" value="BI, Bisección, PuntoFijo" />
+    <MESSAGE value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton" />
+    <option name="LAST_COMMIT_MESSAGE" value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton" />
   </component>
 </project>
