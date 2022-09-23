@@ -9,7 +9,7 @@ public class GaussSimple {
         double[][] Augmented = genAb(A, b);
         double[][] Etapa1 = Etapa1(Augmented);
         ImprimirMatriz(A);
-        ImprimirMatriz(Augmented);
+       // ImprimirMatriz(Augmented);
 
     }
 
@@ -45,12 +45,12 @@ public class GaussSimple {
     }
 
     public static void ImprimirMatriz(double[][] a) {
-        for (int i = 0; i < a.length; i++) {
+        for (double[] doubles : a) {
             for (int j = 0; j < a[0].length; j++) {
-                if (j == (a[0].length - 1)){
-                    System.out.print(a[i][j] + "\n");
+                if (j == (a[0].length - 1)) {
+                    System.out.print(doubles[j] + "\n");
                 } else {
-                    System.out.print(a[i][j] + " ");
+                    System.out.print(doubles[j] + " ");
 
                 }
             }

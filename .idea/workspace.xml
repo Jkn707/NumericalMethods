@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d89a7f-1117-4282-b3b3-e3987fb6cd19" name="Changes" comment="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussSimple">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="98d89a7f-1117-4282-b3b3-e3987fb6cd19" name="Changes" comment="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussSimple, RaizMultiple">
       <change beforePath="$PROJECT_DIR$/src/GaussSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GaussSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RaizMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RaizMultiple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663714359712</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussSimple, RaizMultiple">
+      <created>1663893991482</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663893991483</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +177,7 @@
     <MESSAGE value="BI, Bisección, PuntoFijo" />
     <MESSAGE value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton" />
     <MESSAGE value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussSimple" />
-    <option name="LAST_COMMIT_MESSAGE" value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussSimple" />
+    <MESSAGE value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussSimple, RaizMultiple" />
+    <option name="LAST_COMMIT_MESSAGE" value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussSimple, RaizMultiple" />
   </component>
 </project>
