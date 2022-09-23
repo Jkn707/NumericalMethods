@@ -13,16 +13,16 @@ public class RaizMultiple {
         for (int i = 0; i <= Nmax; i++){
             //Ingresar formula manualmente
             //f = -e^x-x-1
-            double fx = -(Math.exp(x1))-x1-1;
-            double dfx = -(Math.exp(x1))-1;
-            double ddfx = -(Math.exp(x1));
+            double fx = (Math.exp(x1))-x1-1.0;
+            double dfx = (Math.exp(x1))-1.0;
+            double ddfx = (Math.exp(x1));
             x_prev = x1;
             System.out.println("\t" + i + "\t" + String.format("%,.010f", x1) + "\t" + String.format("%,.010f", fx) + "\t" +
                     String.format("%,.010f", dfx) + "\t" + String.format("%e", error));
             if (m!=0){
                 x1 = x1 - m*(fx/dfx);
             }else{
-                x1 = x1 - (fx*dfx)/(Math.pow(dfx, 2))-(fx*ddfx);
+                x1 = x1 - ((fx*dfx)/(Math.pow(dfx, 2)-(fx*ddfx)));
             }
             error = Math.abs(x_prev-x1);
             if (error < tol){
