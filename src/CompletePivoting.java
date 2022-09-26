@@ -3,22 +3,6 @@ public class CompletePivoting
     public void solve(double[][] A, double[] B)
     {
         int N = B.length;
-        /*El método swapColumns está abajo, este ciclo encuentra el valor mayor en la matriz,
-         no sé como hacer para que se ejecute correctamente. Si corres el método te van a salir los stages,
-        el 13 debería quedar en la primera posición, y luego incluirlo en el ciclo de K, para que haga eso con
-        cada etapa*/
-        /*for (int u = 0; u < N; u++) {
-            int maxC = u;
-            for (int p = u+1; p < N; p++){
-                if (A[u][p] > A[u][maxC]){
-                    maxC = p;
-                }
-            }
-            swapColumns(A, 0, maxC);
-        }
-
-         */
-        //Todo de acá para abajo es el código de Pivoteo Parcial
         for (int k = 0; k < N - 1; k++)
         {
             int maxC = k;
