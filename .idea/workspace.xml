@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d89a7f-1117-4282-b3b3-e3987fb6cd19" name="Changes" comment="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussSimple, RaizMultiple">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Jama_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GaussianElimination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PartialPivoting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_09_2022_11_01_p__m___Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_09_2022_11_01_p_ m__[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_09_2022_11_10_a__m___Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_09_2022_11_10_a_ m__[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="98d89a7f-1117-4282-b3b3-e3987fb6cd19" name="Changes" comment="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting">
+      <change afterPath="$PROJECT_DIR$/src/CompletePivoting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NumericalMethods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NumericalMethods.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GaussSimple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RaizMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RaizMultiple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,33 +36,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/SEMESTRE/Análisis/Jama-1.0.3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/USER/Desktop/SEMESTRE/Análisis/Jama-1.0.3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Application.GaussianElimination">
-    <configuration name="GaussSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GaussSimple" />
+}]]></component>
+  <component name="RunManager" selected="Application.CompletePivoting">
+    <configuration name="CompletePivoting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompletePivoting" />
       <module name="NumericalMethods" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GaussianElimination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GaussianElimination" />
+    <configuration name="Newton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Newton" />
       <module name="NumericalMethods" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,15 +76,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PuntoFijo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PuntoFijo" />
+    <configuration name="RaizMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RaizMultiple" />
       <module name="NumericalMethods" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Secante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Secante" />
+    <configuration name="ReglaFalsa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReglaFalsa" />
       <module name="NumericalMethods" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GaussianElimination" />
+        <item itemvalue="Application.CompletePivoting" />
+        <item itemvalue="Application.ReglaFalsa" />
+        <item itemvalue="Application.RaizMultiple" />
+        <item itemvalue="Application.Newton" />
         <item itemvalue="Application.PartialPivoting" />
-        <item itemvalue="Application.GaussSimple" />
-        <item itemvalue="Application.Secante" />
-        <item itemvalue="Application.PuntoFijo" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +115,8 @@
       <workItem from="1663442352447" duration="900000" />
       <workItem from="1664036415661" duration="10156000" />
       <workItem from="1664047175420" duration="132000" />
-      <workItem from="1664216622217" duration="3096000" />
+      <workItem from="1664216622217" duration="3161000" />
+      <workItem from="1664221141000" duration="4656000" />
     </task>
     <task id="LOCAL-00001" summary="BI, Bisección">
       <created>1663256865555</created>
@@ -137,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663279284453</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting">
+      <created>1664219894849</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664219894849</updated>
+    </task>
+    <task id="LOCAL-00004" summary="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting">
+      <created>1664219907249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664219907249</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +166,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BI, Bisección" />
     <MESSAGE value="BI, Bisección, PuntoFijo" />
-    <option name="LAST_COMMIT_MESSAGE" value="BI, Bisección, PuntoFijo" />
+    <MESSAGE value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting" />
+    <option name="LAST_COMMIT_MESSAGE" value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

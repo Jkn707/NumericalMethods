@@ -18,7 +18,7 @@ public class RaizMultiple {
             double ddfx = (Math.exp(x1));
             x_prev = x1;
             System.out.println("\t" + i + "\t" + String.format("%,.010f", x1) + "\t" + String.format("%,.010f", fx) + "\t" +
-                    String.format("%,.010f", dfx) + "\t" + String.format("%e", error));
+                    String.format("%,.010f", dfx) + "\t" + String.format("%,.010f", ddfx) + "\t" + String.format("%e", error));
             if (m!=0){
                 x1 = x1 - m*(fx/dfx);
             }else{
