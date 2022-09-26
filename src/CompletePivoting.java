@@ -3,7 +3,11 @@ public class CompletePivoting
     public void solve(double[][] A, double[] B)
     {
         int N = B.length;
-        for (int u = 0; u < N; u++) {
+        /*El método swapColumns está abajo, este ciclo encuentra el valor mayor en la matriz,
+         no sé como hacer para que se ejecute correctamente. Si corres el método te van a salir los stages,
+        el 13 debería quedar en la primera posición, y luego incluirlo en el ciclo de K, para que haga eso con
+        cada etapa*/
+        /*for (int u = 0; u < N; u++) {
             int maxC = u;
             for (int p = u+1; p < N; p++){
                 if (A[u][p] > A[u][maxC]){
@@ -12,9 +16,22 @@ public class CompletePivoting
             }
             swapColumns(A, 0, maxC);
         }
-        for (int k = 0; k < N; k++)
+
+         */
+        //Todo de acá para abajo es el código de Pivoteo Parcial
+        for (int k = 0; k < N - 1; k++)
         {
-            printRowEchelonForm(A, B);
+            int maxC = k;
+            for (int u = k; u < A.length; u++) {
+                for (int p = k; p < A[0].length; p++) {
+                    if (Math.abs(A[u][p]) > Math.abs(A[u][maxC])) {
+                        maxC = p;
+                    }
+                }
+                swapColumns(A, k, maxC);
+            }
+
+
             /** find pivot row **/
             int max = k;
             for (int i = k + 1; i < N; i++)
@@ -39,7 +56,9 @@ public class CompletePivoting
                 for (int j = k; j < N; j++)
                     A[i][j] -= factor * A[k][j];
             }
+            printRowEchelonForm(A,B);
         }
+
 
         /** back substitution **/
         double[] solution = new double[N];

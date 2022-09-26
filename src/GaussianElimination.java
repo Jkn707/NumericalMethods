@@ -1,4 +1,4 @@
-import Jama.Matrix;
+
 import java.util.*;
 
 public class GaussianElimination {
