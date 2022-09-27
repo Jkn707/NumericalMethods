@@ -1,11 +1,11 @@
 import java.lang.Math;
-public class RaizMultiple {
+public class MultiRoot {
     public static void main (String[] args){
 
-        RM(1, 1E-7, 100, 0);
+        MR(1, 1E-7, 100, 0);
 
     }
-    public static void RM(double x1, double tol, int Nmax, double m){
+    public static void MR(double x1, double tol, int Nmax, double m){
         System.out.println("\ti" + "\tx1       \t" + "\tfx       \t" + "\tdfx.       \t" + "\tddfx       \t" + "\tError");
         double x_prev = 0;
         m = m;

@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class ReglaFalsa {
+public class FalsePosition {
     public static void main (String[] args){
         RF(0, 2, 1E-9, 20);
 

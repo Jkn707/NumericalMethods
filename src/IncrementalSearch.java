@@ -1,9 +1,9 @@
-public class BúsquedaIncremental {
+public class IncrementalSearch {
     public static void main(String[] args) {
-        BI(0.5, 0.3, 10);
+        IS(0.5, 0.3, 10);
     }
 
-    public static void BI(double x0, double delta, int Nmax) {
+    public static void IS(double x0, double delta, int Nmax) {
         System.out.println("\ti" + "\tx0       \t" + "\tx1       \t" + "\tfx_0       \t" + "\tfx_1       \t");
         for (int i = 0; i <= (Nmax + 1); i++) {
             double x1 = x0 + delta;

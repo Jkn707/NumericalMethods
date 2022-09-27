@@ -1,5 +1,5 @@
 import java.lang.Math;
-public class Bisección {
+public class Bisection {
     public static void main(String[] args){
         Bisect(0,2,1E-7,30);
 

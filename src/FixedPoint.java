@@ -1,11 +1,11 @@
 import java.lang.Math;
-public class PuntoFijo {
+public class FixedPoint {
     public static void main (String[] args){
-        PFijo(2, 10, 1E-7);
+        FPoint(2, 10, 1E-7);
 
     }
 
-    public static void PFijo(double x, int Nmax, double tol){
+    public static void FPoint(double x, int Nmax, double tol){
        double xi_previous = 0;
        double fx_i = 0;
         System.out.println("\ti" + "\tx_i       \t" + "\tfx_i       \t" + "\tError");

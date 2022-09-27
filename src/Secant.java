@@ -1,4 +1,4 @@
-public class Secante {
+public class Secant {
     public static void main(String[] args) {
         Sec(0.5, 1, 1E-7, 100);
 
