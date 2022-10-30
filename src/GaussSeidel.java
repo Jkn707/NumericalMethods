@@ -1,6 +1,6 @@
 import Jama.Matrix;
 
-public class Jacobi {
+public class GaussSeidel {
     public static void print(int i, double error, Matrix x){
         System.out.println("Iteration " + i);
         x.print(x.getColumnDimension(), 4);
@@ -28,8 +28,8 @@ public class Jacobi {
                 }
             }
         }
-        Matrix T = (D.inverse().times(L.plus(U)));
-        Matrix C = (D.inverse().times(b.transpose()));
+        Matrix T = ((D.minus(L)).inverse()).times(U);
+        Matrix C = ((D.minus(L)).inverse()).times(b.transpose());
         Matrix x = x0.copy();
         x = x.transpose();
         int i = 0;
@@ -59,3 +59,4 @@ public class Jacobi {
         solve(A,b,x0,1e-7,100);
     }
 }
+

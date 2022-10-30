@@ -1,13 +1,13 @@
 import Jama.Matrix;
 
-public class Jacobi {
+public class SOR {
     public static void print(int i, double error, Matrix x){
         System.out.println("Iteration " + i);
         x.print(x.getColumnDimension(), 4);
         System.out.println("Error: " + error);
     }
 
-    public static void solve(Matrix A, Matrix b, Matrix x0, double Tol, int Nmax){
+    public static void solve(Matrix A, Matrix b, Matrix x0, double w, double Tol, int Nmax){
         Matrix D = A.copy();
         Matrix L = A.copy();
         Matrix U = A.copy();
@@ -28,8 +28,8 @@ public class Jacobi {
                 }
             }
         }
-        Matrix T = (D.inverse().times(L.plus(U)));
-        Matrix C = (D.inverse().times(b.transpose()));
+        Matrix T = ((D.minus(L.times(w))).inverse()).times((D.times(1-w)).plus(U.times(w)));
+        Matrix C = (((D.minus(L.times(w))).inverse()).times(w)).times(b.transpose());
         Matrix x = x0.copy();
         x = x.transpose();
         int i = 0;
@@ -56,6 +56,7 @@ public class Jacobi {
         Matrix A = new Matrix(Inicial);
         Matrix b = new Matrix(Vector, 1);
         Matrix x0 = new Matrix(It0, 1);
-        solve(A,b,x0,1e-7,100);
+        solve(A,b,x0,1.5,1e-7,100);
     }
 }
+
