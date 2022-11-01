@@ -7,7 +7,7 @@ public class Jacobi {
         System.out.println("Error: " + error);
     }
 
-    public static void solve(Matrix A, Matrix b, Matrix x0, double Tol, int Nmax){
+    public static Matrix solve(Matrix A, Matrix b, Matrix x0, double Tol, int Nmax){
         Matrix D = A.copy();
         Matrix L = A.copy();
         Matrix U = A.copy();
@@ -42,6 +42,7 @@ public class Jacobi {
             i++;
             print(i, error, x);
         }
+        return x;
 
 
     }

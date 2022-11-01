@@ -1,6 +1,6 @@
 import Jama.Matrix;
 
-public class Test {
+public class LinearSpline {
     public static void solve(double [] X, double [] Y){
         int n = X.length;
         int m = 2*(n-1);
@@ -8,11 +8,8 @@ public class Test {
         double [] b = new double[m];
         A[0][0] = X[0];
         A[0][1] = 1;
-        A[1][0] = X[1];
-        A[1][1] = 1;
         b[0] = Y[0];
-        b[1] = Y[1];
-        for (int i = 1; i < n-1; i++){
+        for (int i = 0; i < n-1; i++){
             A[i+1][2*i] = X[i+1];
             A[i+1][2*i+1] = 1;
             b[i+1] = Y[i+1];

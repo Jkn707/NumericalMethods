@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d89a7f-1117-4282-b3b3-e3987fb6cd19" name="Changes" comment="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting, Jacobi, Test, GaussSeidel, SOR">
-      <change afterPath="$PROJECT_DIR$/src/DivDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lagrange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vandermonde.java" afterDir="false" />
+    <list default="true" id="98d89a7f-1117-4282-b3b3-e3987fb6cd19" name="Changes" comment="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting, Jacobi, Test, GaussSeidel, SOR, DivDiff, Lagrange, Vandermonde">
+      <change afterPath="$PROJECT_DIR$/src/CuadraticSpline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinearSpline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/util/Spline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NumericalMethods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NumericalMethods.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GaussianElimination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GaussianElimination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jacobi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jacobi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PartialPivoting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PartialPivoting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vandermonde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vandermonde.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2E3BUepSi49kEe6RC3p5EbNgiu9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -67,16 +73,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lagrange">
-    <configuration name="DivDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DivDiff" />
-      <module name="NumericalMethods" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GaussSeidel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GaussSeidel" />
+  <component name="RunManager" selected="Application.CuadraticSpline">
+    <configuration name="CuadraticSpline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CuadraticSpline" />
       <module name="NumericalMethods" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,8 +95,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SOR" />
+    <configuration name="LinearSpline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinearSpline" />
+      <module name="NumericalMethods" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vandermonde" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vandermonde" />
       <module name="NumericalMethods" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lagrange" />
-        <item itemvalue="Application.DivDiff" />
-        <item itemvalue="Application.SOR" />
+        <item itemvalue="Application.CuadraticSpline" />
+        <item itemvalue="Application.LinearSpline" />
         <item itemvalue="Application.Jacobi" />
-        <item itemvalue="Application.GaussSeidel" />
+        <item itemvalue="Application.Vandermonde" />
+        <item itemvalue="Application.Lagrange" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +143,8 @@
       <workItem from="1667108403501" duration="1786000" />
       <workItem from="1667157737763" duration="8926000" />
       <workItem from="1667188551594" duration="3385000" />
-      <workItem from="1667192160608" duration="3491000" />
+      <workItem from="1667192160608" duration="3533000" />
+      <workItem from="1667240886307" duration="24973000" />
     </task>
     <task id="LOCAL-00001" summary="BI, Bisección">
       <created>1663256865555</created>
@@ -195,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667158894252</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting, Jacobi, Test, GaussSeidel, SOR, DivDiff, Lagrange, Vandermonde">
+      <created>1667195705528</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667195705528</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +232,8 @@
     <MESSAGE value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting" />
     <MESSAGE value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting, Jacobi, Test" />
     <MESSAGE value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting, Jacobi, Test, GaussSeidel, SOR" />
-    <option name="LAST_COMMIT_MESSAGE" value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting, Jacobi, Test, GaussSeidel, SOR" />
+    <MESSAGE value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting, Jacobi, Test, GaussSeidel, SOR, DivDiff, Lagrange, Vandermonde" />
+    <option name="LAST_COMMIT_MESSAGE" value="BI, Bisección, PuntoFijo, ReglaFalsa, Newton, Secante, GaussianElimination, RaizMultiple, PartialPivoting, Jacobi, Test, GaussSeidel, SOR, DivDiff, Lagrange, Vandermonde" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

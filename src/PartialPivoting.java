@@ -1,7 +1,7 @@
 
  public class PartialPivoting
     {
-        public void solve(double[][] A, double[] B)
+        public static void solve(double[][] A, double[] B)
         {
             int N = B.length;
             for (int k = 0; k < N; k++)
@@ -46,7 +46,7 @@
             printSolution(solution);
         }
         /** function to print in matrix form **/
-        public void printRowEchelonForm(double[][] A, double[] B)
+        public static void printRowEchelonForm(double[][] A, double[] B)
         {
             int N = B.length;
             System.out.println("\nForma matricial : ");
@@ -59,7 +59,7 @@
             System.out.println();
         }
         /** function to print solution **/
-        public void printSolution(double[] sol)
+        public static void printSolution(double[] sol)
         {
             int N = sol.length;
             System.out.println("\nSolution : ");
